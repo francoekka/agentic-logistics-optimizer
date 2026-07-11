@@ -1,0 +1,5 @@
+{
+  "doc_id": "policy_2",
+  "type": "security",
+  "rule": "Any outbound flow flagged by DPI as suspicious must be quarantined immediately."
+}

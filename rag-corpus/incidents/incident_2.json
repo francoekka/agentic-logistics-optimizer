@@ -1,0 +1,5 @@
+{
+  "doc_id": "incident_2",
+  "type": "cargo_case",
+  "summary": "Refrigerated truck cargo temperature rose above 8°C in 2025. SLA breach triggered penalty."
+}

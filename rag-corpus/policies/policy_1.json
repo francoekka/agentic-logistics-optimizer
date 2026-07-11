@@ -1,0 +1,5 @@
+{
+  "doc_id": "policy_1",
+  "type": "routing",
+  "rule": "Vehicles must avoid restricted zones flagged by DPI metadata."
+}

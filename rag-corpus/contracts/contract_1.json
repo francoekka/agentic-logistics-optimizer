@@ -1,0 +1,5 @@
+{
+  "doc_id": "contract_1",
+  "type": "SLA",
+  "clause": "Delivery must be completed within 48 hours. Delay penalties: $500 per hour beyond SLA."
+}
