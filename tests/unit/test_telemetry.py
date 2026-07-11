@@ -20,3 +20,4 @@ def test_warehouse_schema_valid():
         "dock_status": "occupied"
     }
     jsonschema.validate(sample, schema)
+
