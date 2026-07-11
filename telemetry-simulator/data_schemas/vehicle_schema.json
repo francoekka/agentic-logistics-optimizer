@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VehicleTelemetry",
+  "type": "object",
+  "properties": {
+    "vehicle_id": {"type": "string"},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "gps": {
+      "type": "object",
+      "properties": {
+        "lat": {"type": "number"},
+        "lon": {"type": "number"}
+      },
+      "required": ["lat", "lon"]
+    },
+    "speed_kmh": {"type": "number"},
+    "cargo_temp_c": {"type": "number"},
+    "cargo_weight_kg": {"type": "number"},
+    "network_metadata": {
+      "type": "object",
+      "properties": {
+        "cell_tower_id": {"type": "string"},
+        "signal_strength": {"type": "number"},
+        "dpi_flags": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  },
+  "required": ["vehicle_id", "timestamp", "gps", "speed_kmh"]
+}
