@@ -1,5 +1,4 @@
 from agent.retrieval_wrapper import RetrievalWrapper
-import json, os
 
 def test_retrieval_returns_docs(tmp_path):
     rw = RetrievalWrapper(persist_dir=str(tmp_path))

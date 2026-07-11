@@ -12,4 +12,3 @@ def test_ledger_record():
 def test_quarantine_flow():
     result = quarantine_stub.quarantine_flow("flow_99", "Suspicious DPI flag")
     assert result["status"] == "ok"
-
